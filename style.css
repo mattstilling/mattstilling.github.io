@@ -1,7 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+
 body {
     background-color: ghostwhite;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
 
-  }
+h1 {
+  color: rgb(10, 10, 70);
+  font-size: 30px;
+}
+
 p {
-    color: midnightblue;
+  color: rgb(40, 40, 50);
+}
+
+section {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#intro {
+  height: 500px;
+  background-image: url("assets/coast.jpeg");
+  background-position-y: 50%;
+  background-size: 100%;
+  background-color: rgb(190, 200, 220);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#title {
+  color: rgb(215, 220, 230);
+}
+
+#subtitle {
+  color: rgb(195, 205, 225);
+}
+
+.alternate {
+  background-color: rgb(190, 200, 220);
 }
