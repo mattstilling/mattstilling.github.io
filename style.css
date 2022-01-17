@@ -16,6 +16,10 @@ p {
   color: rgb(40, 40, 50);
 }
 
+a:link {
+  color: darkblue;
+}
+
 section {
   width: 100%;
   padding-top: 15px;
@@ -27,6 +31,7 @@ section {
   background-image: url("assets/coast.jpeg");
   background-position-y: 50%;
   background-size: 100%;
+  background-repeat: no-repeat;
   background-color: rgb(190, 200, 220);
   padding-top: 50px;
   padding-bottom: 50px;
